@@ -1,0 +1,56 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.logo {
+  /* add styles for your logo */
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.hero {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  width: 100%;
+  position: relative;
+  top: 40%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #000;
+  }
+}
